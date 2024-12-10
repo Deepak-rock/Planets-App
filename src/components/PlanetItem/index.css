@@ -1,37 +1,37 @@
 /* Write your CSS here */
 .planet-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .planet-img {
-    width: 250px;
-    height: 200px;
+  width: 250px;
+  height: 200px;
 }
 .planet-name {
-    text-align: center;
-    font-size: 24px;
-    font-family: 'roboto';
-    color: #f8fafc;
-    font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'roboto';
+  color: #f8fafc;
+  font-weight: bold;
 }
 .description {
-    text-align: center;
-    font-size: 18px;
-    font-family: 'roboto';
-    color:  #f1f5f9;
-    max-width: 600px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'roboto';
+  color: #f1f5f9;
+  max-width: 600px;
 }
-@media screen and (min-width: 768px){
-    .planet-img {
-        width: 450px;
-        height: 350px;
-    }
-    .planet-name {
-        font-size: 36px;
-    }
-    .description {
-        font-size: 22px;
-    }
+@media screen and (min-width: 768px) {
+  .planet-img {
+    width: 450px;
+    height: 350px;
+  }
+  .planet-name {
+    font-size: 36px;
+  }
+  .description {
+    font-size: 22px;
+  }
 }
